@@ -4,6 +4,10 @@ import javax.swing.JFrame;
 
 public class StringFrame extends JFrame {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private StringPanel currentPanel;
 	
 	public StringFrame() {

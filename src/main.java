@@ -11,7 +11,7 @@ caldas.victor@gmail.com
 public class main{
 	
 	
-	public static void main(String[] args ){
+	public main(String[] args ){
 		StringFrame frame = new StringFrame();
 		frame.start();
 	 }
