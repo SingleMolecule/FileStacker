@@ -91,6 +91,7 @@ public class Stacker {
 		
 		ArrayList<File> channel1 = new ArrayList<File>();
 		ArrayList<File> channel2 = new ArrayList<File>();
+		ArrayList<File> channel3 = new ArrayList<File>();
 		currentFolder = child;
 		
 		for(File file : files)
@@ -102,10 +103,14 @@ public class Stacker {
 			if(filename.contains("C002")){
 				channel2.add(file);
 			}
+			if(filename.contains("C003")){
+				channel3.add(file);
+			}
 		}
 		
 		stacker(channel1, "C001");
 		stacker(channel2, "C002");
+		stacker(channel3, "C003");
 		
 		
 		
